@@ -2,7 +2,6 @@
 *.iml
 *.ipr
 *.iws
-.idea
 .DS_Store
 .classpath
 .settings

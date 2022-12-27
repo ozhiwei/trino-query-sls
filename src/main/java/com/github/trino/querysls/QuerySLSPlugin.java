@@ -11,17 +11,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.trino.querylog;
+package com.github.trino.querysls;
 
 import io.trino.spi.Plugin;
 import io.trino.spi.eventlistener.EventListenerFactory;
 
 import java.util.Collections;
 
-public class QueryLogPlugin implements Plugin {
+public class QuerySLSPlugin implements Plugin {
 
     @Override
     public Iterable<EventListenerFactory> getEventListenerFactories() {
-        return Collections.singletonList(new QueryLogListenerFactory());
+        return Collections.singletonList(new QuerySLSListenerFactory());
     }
 }
