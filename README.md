@@ -1,7 +1,7 @@
 
 # Overview
 
-Trino Query SLS is a [Trino (formerly Presto SQL)](https://trino.io/) plugin for logging query events into aliyun sls (fork trino-query-sls).
+Trino Query SLS is a [Trino (formerly Presto SQL)](https://trino.io/) plugin for logging query events into aliyun sls (fork trino-querylog).
 
 Its main purpose is to gather queries metadata and statistics as one event per line, so it can be easily collected by external software (e.g. Elastic FileBeat which will send data to Logstash/ElasticSearch/Kibana for storage/analysis).
 
